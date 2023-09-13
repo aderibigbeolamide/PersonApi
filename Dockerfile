@@ -1,14 +1,21 @@
-# Use the official ASP.NET image as a parent image
+# Use the official ASP.NET Core runtime image as the base image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
-
-# Set the working directory in the container
 WORKDIR /app
-
-# Copy the published output of your MVC application to the container
-COPY ./bin/Debug/net6.0 .
-
-# Expose port 80 for HTTP traffic
 EXPOSE 80
 
-# Set the entry point for the container
+# Use the official ASP.NET Core SDK image to build your application
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY ["PersonApi/PersonApi.csproj", "PersonApi/"]
+RUN dotnet restore "PersonApi/PersonApi.csproj"
+COPY . .
+WORKDIR "/src/PersonApi"
+RUN dotnet build "PersonApi.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "PersonApi.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "PersonApi.dll"]
