@@ -6,7 +6,7 @@ EXPOSE 80
 # Use the official ASP.NET Core SDK image to build your application
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["PersonApi/PersonApi.csproj", "PersonApi/"]
+COPY ["PersonApi.csproj", "PersonApi/"]
 RUN dotnet restore "PersonApi/PersonApi.csproj"
 COPY . .
 WORKDIR "/src/PersonApi"
