@@ -10,6 +10,8 @@ COPY ["PersonApi.csproj", "PersonApi/"]
 RUN dotnet restore "PersonApi/PersonApi.csproj"
 COPY . .
 WORKDIR "/src/PersonApi"
+# Clean the project
+RUN dotnet clean
 RUN dotnet build "PersonApi.csproj" -c Release -o /app/build
 
 FROM build AS publish

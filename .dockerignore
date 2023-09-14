@@ -1,5 +1,5 @@
-# Exclude files and directories
-bin/
-obj/
-.vscode/
-.git/
+# # Exclude files and directories
+# bin/
+# obj/
+# .vscode/
+# .git/

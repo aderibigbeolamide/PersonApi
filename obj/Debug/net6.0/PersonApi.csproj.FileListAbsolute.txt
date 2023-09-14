@@ -6,11 +6,7 @@
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/PersonApi.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/ref/PersonApi.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/PersonApi.pdb
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/FubarCoder.RestSharp.Portable.Core.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/FubarCoder.RestSharp.Portable.HttpClient.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Humanizer.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/JsonSubTypes.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
@@ -25,20 +21,13 @@
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.Owin.Host.SystemWeb.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.Owin.Security.Jwt.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Mono.TextTemplating.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/MySqlConnector.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
-/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/sib_api_v3_sdk.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -62,3 +51,4 @@
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/obj/Debug/net6.0/ref/PersonApi.dll
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/obj/Debug/net6.0/PersonApi.pdb
 /home/fullstackbeast/Desktop/Musodiq/PersonApi/obj/Debug/net6.0/PersonApi.genruntimeconfig.cache
+/home/fullstackbeast/Desktop/Musodiq/PersonApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll

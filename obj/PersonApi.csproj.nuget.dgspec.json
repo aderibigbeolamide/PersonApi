@@ -38,10 +38,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -51,14 +47,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
-            },
-            "Microsoft.Owin.Host.SystemWeb": {
-              "target": "Package",
-              "version": "[4.2.2, )"
-            },
-            "Microsoft.Owin.Security.Jwt": {
-              "target": "Package",
-              "version": "[4.2.2, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -71,10 +59,6 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.27.0, )"
-            },
-            "sib_api_v3_sdk": {
-              "target": "Package",
-              "version": "[3.3.0, )"
             }
           },
           "imports": [
