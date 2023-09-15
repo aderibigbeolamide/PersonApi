@@ -10,7 +10,7 @@ using PersonApi.Implementations.Repositories;
 using PersonApi.Interface.Repositories;
 using PersonApi.Interface.Services;
 
-namespace YourNamespace
+namespace PersonApi
 {
     public class Startup
     {
